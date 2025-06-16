@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../templates/index.css" rel="stylesheet">
+    <title>Welcome Page</title>
+</head>
+<body>
+ <div class="navBar">
+    <div class="logo">
+        NouveauLib>>
+
+
+    </div>
+    <div class="navLinks">
+        <ul class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/getBooks">Get Books</a></li>
+        </ul>
+        <ul class="auth">
+            <li><button><a href="/login">Login</a></button></li>
+            <li><button><a href="/register">Register</a></button></li>
+        </ul>
+    </div>
+</div>
+    <h1>Welcome, {{ name }}!</h1>
+</body>
+</html>
